@@ -1,9 +1,5 @@
-const { defineConfig } = require("@vue/cli-service");
-
+const { defineConfig } = require("@vue/cli-service")
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: "/Front-destinoMx/",
-  css: {
-    extract: true, 
-  },
-});
+  publicPath: "/Front-destinoMx/"
+})
