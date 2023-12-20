@@ -2,6 +2,6 @@ import axios from "axios"
 
 //Backend en ambiente productivo
 export const apiFromBackend = axios.create({
-  baseURL: "https://mts-destinomx.up.railway.app",
+  baseURL: "http://localhost:4000/",
   withCredentials: true,
 })
