@@ -20,3 +20,7 @@ export default {
   },
 }
 </script>
+
+<style>
+/* Agrega tus estilos aquí si es necesario */
+</style>
